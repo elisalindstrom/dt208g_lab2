@@ -3,8 +3,9 @@ import type { ITodo } from "./iTodo";
 // Sköter logiken
 
 export class TodoList { // Klass som container för egenskaper och metoder
-  todos: ITodo[] = []; // Egenskap (array) där todo-objekt lagras
+  todos: ITodo[] = []; // Array för todo-objekt
 
+  // Sparade todos hämtas
   constructor() {
     this.loadFromLocalStorage();
   }

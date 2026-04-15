@@ -1,5 +1,11 @@
 # Laboration 2 DT208G
 
-Applikation där det går att lägga till och spara uppgifter i en att göra-lista.
+## Att göra-applikation i TypeScript
+
+Applikationens logik sköts i filen todoList.ts medan utskrift till DOM sköts i filen main.ts genom anrop till klassen TodoLists metoder.
+
+När applikationen laddas skapas ett objekt utifrån klassen TodoList. Klassen innehåller en array för uppgifter samt en konstruktor för att direkt hämta lagrad data från localStorage.
+
+Klassens olika metoder gör det möjligt att: lägga till ny uppgift, klarmarkera uppgift (och ångra klarmarkering vid felklick), hämta alla uppgifter, spara uppgifter i localStorage, ladda lagrade uppgifter från localStorage, ta bort sparade uppgifter.
 
 Av Elisa Lindström, 2026
